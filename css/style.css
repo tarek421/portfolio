@@ -756,12 +756,22 @@
      position: absolute;
      bottom: 10px;
      right: 10px;
-     color: #C49B66;
+     color: #fffdfa;
      -webkit-transition: all .5s;
      transition: all .5s;
      z-index: 5;
      opacity: 0;
    }
+   .portfolio .item-img .link-2 {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    color: #fffdfa;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 5;
+    opacity: 0;
+  }
    .portfolio .item-img-overlay {
      position: absolute;
      top: 5px;
@@ -776,7 +786,7 @@
      position: absolute;
      width: 0;
      height: 50%;
-     background: #fff;
+     background: #df5151;
      -webkit-transition: all .4s;
      transition: all .4s;
    }
@@ -791,11 +801,13 @@
    .portfolio .item-img-overlay:hover:before, .portfolio .item-img-overlay:hover:after {
      width: 100%;
    }
-   .portfolio .item-img-overlay:hover h6, .portfolio .item-img-overlay:hover h5, .portfolio .item-img-overlay:hover .link {
+   .portfolio .item-img-overlay:hover h6, .portfolio .item-img-overlay:hover h5, .portfolio .item-img-overlay:hover .link , .portfolio .item-img-overlay:hover .link-2 {
      -webkit-transform: translateY(0);
              transform: translateY(0);
      opacity: 1;
+     color: white;
    }
+   
    
    /* ----------------------------------------------------------------
                        10 Testimonials
